@@ -1,1 +1,1 @@
-# password-genorator
+This a a password generator
