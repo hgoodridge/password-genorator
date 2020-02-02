@@ -1,1 +1,3 @@
-This a a password generator
+This a a password generator...
+<!-- screenshot of application -->
+<!-- info about funtionality -->
