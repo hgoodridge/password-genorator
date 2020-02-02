@@ -36,8 +36,12 @@ var randUc = upperCase[Math.floor(Math.random() * upperCase.length)];
 var randNum = nums[Math.floor(Math.random() * nums.length)]; 
 var passWd = randLc + randSc + randUc + randNum
 
+
  alert("Your new password is: " + passWd)
   
+  for (var i = 0; i < charLength;i++) {
+    console.log(randUc)
+  }
 
 
 
