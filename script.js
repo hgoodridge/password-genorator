@@ -20,29 +20,28 @@ function writePassword() {
 
 // pwChoice4 = alert("Would you like to include lowercase characters in your password?")
 
- 
+// var specialChar = ['!', '#', '$', '%', '&', '(', ')', '*', '+', '-', '"', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~']
+// var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+// var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+// var nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-var specialChar = ['!', '#', '$', '%', '&', '(', ')', '*', '+', '-', '"', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~']
-var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
-var nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
+
+ allChar = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"] , ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] , ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"], ['!', '#', '$', '%', '&', '(', ')', '*', '+', '-', '"', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~']
 
 
 charLength = prompt("Enter a character length between 8-128")
-var randLc = lowerCase[Math.floor(Math.random() * lowerCase.length)];
-var randSc = specialChar[Math.floor(Math.random() * specialChar.length)];
-var randUc = upperCase[Math.floor(Math.random() * upperCase.length)];
-var randNum = nums[Math.floor(Math.random() * nums.length)]; 
-var passWd = randLc + randSc + randUc + randNum
 
 
- alert("Your new password is: " + passWd)
-  
   for (var i = 0; i < charLength;i++) {
-    console.log(randUc)
+    
+   var gen = Math.floor(Math.random() * allChar.length);
+   var pw = "allChar" .charAt(gen);
+    console.log(pw)
+    alert("Your new password is: " + pw)
   }
-
+  
+// }
 
 
 
