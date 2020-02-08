@@ -1,3 +1,1 @@
-This a a password generator...
-<!-- screenshot of application -->
-<!-- info about funtionality -->
+A password genorator that creates a password filled with speacial characters, numbers, upper and lowercase letters.
