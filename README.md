@@ -1,1 +1,1 @@
-A password genorator that creates a password filled with speacial characters, numbers, upper and lowercase letters.
+A password genorator that creates a password filled with special characters, numbers, upper and lowercase letters upons user's request.
